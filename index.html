@@ -2,30 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    body {background-color: rgb(0, 0, 173); color:aliceblue; text-align: center; font-family: 'Outfit', sans-serif;}
-    img {max-width: 90%; border-radius: 4%; margin-top: 5%;}
-    a {text-decoration: none; font-weight: bold; margin-bottom: 1px;}
-    .attribution { font-size: 11px; text-align: center; color:aliceblue }
-    .image {background-color: white; margin: 0 auto; width: 33%; border-radius: 4%; padding-bottom: 2%;margin-bottom: 2%;}
-    .attribution a { color:aliceblue;}
-    .intro {color: #0e1d33; font-weight: bold; font-size: 1rem;}
-    .scanMe {color:#878892; font-size: .7rem;}
-
-
-  </style>
 </head>
+
 <body>
-  <wrapper> 
+  <main> 
 
     <header>
       <h1>QR Code</h1>
@@ -34,25 +25,25 @@
     <section class="image">
       <div class="background"></div>
       <div class="qrCode">
-        <img src="./src/image-qr-code.png">
+        <img src="./src/image-qr-code.png" alt="scannable qr code for frontendmentor">
       </div>
-      <p class="intro">Improve your front-end<br/> 
-        skills by building projects</p>
-      <p class="scanMe">Scan the QR code to visit Frontend<br/>
-         Mentor and take your coding skills to<br/> 
+      <h6 class="intro">Improve your front-end<br aria-hidden="true"/> 
+        skills by building projects</h6>
+      <p class="scanMe">Scan the QR code to visit Frontend<br aria-hidden="true"/>
+         Mentor and take your coding skills to<br aria-hidden="true"/> 
          the next level</p>
 
     </section>
 
-      <footer>
+    <footer>
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        <br/>
-        Coded by <a href="https://phenomenal-manatee-ca20f5.netlify.app/home target="_blank"">Kelly Granger</a>.
-        <br><a href="https://github.com/KGranger56" target="_blank">GitHub</a>
+        <br aria-hidden="true"/>
+        Coded by <a href="https://phenomenal-manatee-ca20f5.netlify.app/home" target="_blank">Kelly Granger</a>.
+        <br aria-hidden="true"/> Please visit my<a href="https://github.com/KGranger56" target="_blank">GitHub</a>
       </div>
   </footer>
   
-  </wrapper>
+  </main>
 </body>
 </html>

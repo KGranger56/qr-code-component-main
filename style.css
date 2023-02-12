@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(0, 0, 173); 
+  color:aliceblue; 
+  text-align: center; 
+  font-family: 'Outfit', sans-serif;
+}
+
+img {
+  max-width: 90%; 
+  border-radius: 4%; 
+  margin-top: 5%;
+}
+a {
+  text-decoration: none; 
+  font-weight: bold; 
+  margin-bottom: 1%;
+}
+
+.attribution { 
+  font-size: .6rem; 
+  text-align: center; 
+  color:aliceblue; 
+  margin-top: .4rem;
+}
+
+.image {
+  background-color: white; 
+  margin: 0 auto; 
+  max-width: 20rem; 
+  border-radius: 4%; 
+  padding-bottom: 2%
+}
+
+.attribution a { 
+  color:aliceblue;
+}
+
+.intro {
+  color: #0e1d33; 
+  font-weight: 700; 
+  font-size: 1.3rem; 
+  margin-top: 4%; 
+  margin-bottom: 3%;
+}
+
+.scanMe {
+  color:#878892; 
+  font-weight: 400; 
+  font-size: .9rem; 
+  margin-bottom: 3%;
+}
+
