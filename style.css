@@ -26,7 +26,7 @@ a {
 .image {
   background-color: white; 
   margin: 0 auto; 
-  max-width: 20rem; 
+  max-width: 10rem; 
   border-radius: 4%; 
   padding-bottom: 2%
 }
@@ -38,7 +38,7 @@ a {
 .intro {
   color: #0e1d33; 
   font-weight: 700; 
-  font-size: 1.3rem; 
+  font-size: .7rem; 
   margin-top: 4%; 
   margin-bottom: 3%;
 }
@@ -46,7 +46,7 @@ a {
 .scanMe {
   color:#878892; 
   font-weight: 400; 
-  font-size: .9rem; 
+  font-size: .5rem; 
   margin-bottom: 3%;
 }
 
